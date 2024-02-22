@@ -4,4 +4,11 @@ void main(){
   stdout.write('hello world');
   var name = stdin.readLineSync();
   print("welcome $name");
+  new human(); 
+  or 
+    human();// creating an object of human class
 }
+class human{
+  human();
+}
+  
